@@ -369,8 +369,8 @@ function HeroSection() {
           {[
             { icon: Phone, href: "tel:+919689550530", label: "+91-9689550530", color: "from-green-500 to-emerald-600" },
             { icon: Mail, href: "mailto:imranance99@gmail.com", label: "Email", color: "from-red-500 to-pink-600" },
-            { icon: Linkedin, href: "#", label: "LinkedIn", color: "from-blue-500 to-cyan-600" },
-            { icon: Github, href: "#", label: "GitHub", color: "from-gray-700 to-gray-900" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/imran--shaikh/", label: "LinkedIn", color: "from-blue-500 to-cyan-600" },
+            { icon: Github, href: "https://www.github.com/imarb51", label: "GitHub", color: "from-gray-700 to-gray-900" },
           ].map((item, index) => (
             <motion.a
               key={index}
