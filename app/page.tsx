@@ -369,8 +369,8 @@ function HeroSection() {
           {[
             { icon: Phone, href: "tel:+919689550530", label: "+91-9689550530", color: "from-green-500 to-emerald-600" },
             { icon: Mail, href: "mailto:imranance99@gmail.com", label: "Email", color: "from-red-500 to-pink-600" },
-            { icon: Linkedin, href: "https://www.linkedin.com/in/imran--shaikh/", label: "LinkedIn", color: "from-blue-500 to-cyan-600" },
-            { icon: Github, href: "https://github.com/imarb51", label: "GitHub", color: "from-gray-700 to-gray-900" },
+            { icon: Linkedin, href: "#", label: "LinkedIn", color: "from-blue-500 to-cyan-600" },
+            { icon: Github, href: "#", label: "GitHub", color: "from-gray-700 to-gray-900" },
           ].map((item, index) => (
             <motion.a
               key={index}
@@ -1384,37 +1384,6 @@ function ContactSection() {
           >
             <Phone className="w-5 h-5" />
             <span>+91-9689550530</span>
-          </motion.a>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={isInView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex justify-center items-center space-x-6 mt-8"
-        >
-          <motion.a
-            href="https://www.linkedin.com/in/imran--shaikh/"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.05, y: -5 }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center space-x-3 bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-3 rounded-full text-white font-semibold hover:shadow-lg transition-all duration-300"
-          >
-            <Linkedin className="w-5 h-5" />
-            <span>LinkedIn</span>
-          </motion.a>
-
-          <motion.a
-            href="https://github.com/imarb51"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.05, y: -5 }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center space-x-3 bg-gradient-to-r from-gray-700 to-gray-900 px-6 py-3 rounded-full text-white font-semibold hover:shadow-lg transition-all duration-300"
-          >
-            <Github className="w-5 h-5" />
-            <span>GitHub</span>
           </motion.a>
         </motion.div>
 
